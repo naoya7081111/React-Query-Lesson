@@ -1,6 +1,6 @@
 import { VFC } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { ReactQueryDevtools } from 'react-query-devtools';
+import { ReactQueryDevtools } from 'react-query/devtools';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ClassicalFetchA } from './components/ClassicalFetchA';
 import { ClassicalFetchB } from './components/ClassicalFetchB';

@@ -7,7 +7,6 @@ export const ReactQueryA: VFC = () => {
 
     const navigation = useNavigate();
     const { status, data } = useQueryTasks();
-    console.log(data)
 
     if(status === 'loading') return <div>{'Loading...'}</div>
     if(status === 'error') return <div>{'Error'}</div>
